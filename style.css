@@ -1,0 +1,69 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+.intro {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-infomation {
+    display: flex;
+    height: 120px;
+    position: relative;
+}
+
+.contact {
+    width: 300px;
+    /* position: absolute; */
+    height: 50px;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    margin: auto;
+}
+
+ul.usernav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-infomation div.worktime p span {
+    color: red;
+}
+
+.logo {height: 120px;display: flex;flex-direction: column;justify-content: space-around;text-align: center;}
+
+div.logo img {display: inline-block;}
+
+.cart {margin: auto;}
+
+.worktime {
+    text-align: end;
+    margin-top: 0;
+}
+
+.intro-infomation .contact .user-contact .usernav .usernav-item a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.intro-infomation .contact .user-contact .usernav .usernav-item a:hover {
+    color: red;
+}
+
+.user-contact {
+    margin-bottom: 10px;
+}
